@@ -1,0 +1,232 @@
+/*3 values: Consistency, Simplicity, and Professionalism*/
+/* Global styles
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Play&family=Roboto&display=swap');
+html {
+    box-sizing: border-box;
+    /* background: #EEE; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* {margin: 0px}
+/*----------------HYPERLINKS----------------*/
+a[href^="http"] {
+  color: #00BFFF;
+}
+a[href^="mailto"] {
+  color: #00BFFF;
+}
+a[href^="#"] {
+  color: #00BFFF;
+}
+/*----------------ABOUT----------------*/
+header {
+  background: #888098;
+  color: #F8F8FF;
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.main_header h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 60px;
+  text-align: center;
+  line-height: 2.5;
+}
+.main_header h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  padding: 20px;
+}
+.main_header p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin: 20px;
+}
+/*----------------FEATURED PROJECTS----------------*/
+.featured_projects {
+  background: #344055;
+  color: #F8F8FF;
+  padding-left: 520px;
+  padding-right: 520px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.featured_projects h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 2.5;
+  padding-bottom: 0px
+}
+.featured_projects h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  padding-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.featured_projects h3 + p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+.featured_projects .btn {
+  color: #F8F8FF;
+  background: #888098;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+/*----------------WORK EXPERIENCE----------------*/
+.work_experience {
+  background: #987D96;
+  color: #F8F8FF;
+  padding-left: 520px;
+  padding-right: 520px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.work_experience h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 2.5;
+  padding-bottom: 0px
+}
+.work_experience h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  padding-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.work_experience h3 + p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  padding-left: 0px;
+}
+#job1_description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 20px;
+  padding: 0px;
+}
+#job2_description p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 20px;
+  padding: 0px;
+}
+#job3_description p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 20px;
+  padding: 0px;
+}
+#job2_list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+#job3_list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+/*----------------EDUCATION----------------*/
+.education {
+  background: #266DD3;
+  color: #F8F8FF;
+  padding-left: 520px;
+  padding-right: 520px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.education h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 2.5;
+  padding-bottom: 0px
+}
+.education h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  padding-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+.education h3 + ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+/*----------------KEEP IN TOUCH----------------*/
+.keep_in_touch {
+  background: #888098;
+  color: #F8F8FF;
+  padding-left: 520px;
+  padding-right: 520px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.keep_in_touch h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 2.5;
+  padding-bottom: 30px
+}
+#email {
+  text-align: left;
+}
+#website {
+  text-align: right;
+}
+#twitter {
+  text-align: left;
+}
+#linkedin {
+  text-align: right;
+}
+/* .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas:
+    "email . . website"
+    "twitter . . linkedin";
+   min-height: 100vh;
+   grid-column-gap: 10px;
+   grid-row-gap: 10px;
+}
+#email, #website, #twitter, #linkedin {
+  border: solid 1px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#email {
+  grid-area: email;
+}
+#website {
+  grid-area: website;
+}
+#twitter {
+  grid-area: twitter;
+}
+#linkedin {
+  grid-area: linkedin;
+} */
